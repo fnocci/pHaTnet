@@ -1,2 +1,2 @@
 # pHaTnet
-pH &amp; Temperature sensor network code
+pH &amp; Temperature sensor network 
