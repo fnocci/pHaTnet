@@ -1,3 +1,3 @@
 Wiki?
 
-![Image] (./overview.png?raw=true)
+[[overview.png?raw=true]]
