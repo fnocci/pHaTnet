@@ -1,3 +1,3 @@
 Wiki?
 
-![Alt text] (/docs/overview.png "pHaTnet overview")
+![Image] (./overview.png?raw=true)
