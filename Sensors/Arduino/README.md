@@ -1,6 +1,6 @@
 
 
-This Arduino sketch is compiled with the Arduino IDE 'Tools->Board' with option "Adafruit Feather 324u"
+This Arduino sketch pHaTsensor is compiled with the Arduino IDE 'Tools->Board' with option "Adafruit Feather 324u"
 
 There are complete instructions for installing and configuring Arduino IDE and their BLE library at:
 
