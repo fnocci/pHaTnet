@@ -1,0 +1,16 @@
+[Unit]
+Description=BLE2MQTT service
+
+[Service]
+Type=notify
+#Environment=PROBABILITY=0.1
+ExecStart=/tmp/1d07533ef94a4589d348/ble2mqttd.py
+#?????????????^^^^^^^^^^^^^^^^^^^^^ what is this?
+
+Restart=always
+RestartSec=30
+
+#WatchdogSec=1
+
+[Install]
+WantedBy=multi-user.target

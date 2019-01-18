@@ -23,13 +23,13 @@
 Adafruit_BluefruitLE_SPI ble(BLUEFRUIT_SPI_CS, BLUEFRUIT_SPI_IRQ, BLUEFRUIT_SPI_RST);
 Adafruit_BLEEddystone eddyBeacon(ble);
 
-#define rx 11                                        //define what pin rx is going to be 11 IS CORRECT                                                    //USE THE YELLOW WIRE FOR RX
+#define rx 11                                        //define what pin rx is going to be 11 IS CORRECT                                                    
 #define tx 12                                        //define what pin tx is going to be
 
-SoftwareSerial myserial(rx, tx);                      //define how the soft serial port is going to work 
+SoftwareSerial myserial(rx, tx);                     //define how the soft serial port is going to work 
 
-String inputstring = "";                              //a string to hold incoming data from the PC
-String sensorstring = "";                             //a string to hold the data from the Atlas Scientific product
+String inputstring = "";                             //a string to hold incoming data from the PC
+String sensorstring = "";                            //a string to hold the data from the Atlas Scientific product
 String urlstring = URL;
 char urlcharArray[17];
 
